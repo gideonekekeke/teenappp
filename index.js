@@ -10,7 +10,7 @@ const port = process.env.PORT || 4040
 // dotenv.config()
 
 app.get("/", (req, res)=>{
-   res.send("port is running well well")
+   res.send("port is running well well well")
 })
 
 // app.use(express.json())
