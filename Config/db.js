@@ -5,7 +5,7 @@ const url = "mongodb+srv://admin:ilovemusic1234@cluster0.21gv0.mongodb.net/myFir
 mongoose.connect(url)
 
 mongoose.connection
-.on("open", (strem)=>{
+.on("open", (data)=>{
   console.log("database is conneted sucessfully");
 })
 .once("error", (strem)=>{

@@ -9,9 +9,9 @@ const port = process.env.PORT || 4040
 
 dotenv.config()
 
-app.get("/", (req, res)=>{
-   res.send("port is running well well well")
-})
+// app.get("/", (req, res)=>{
+//    res.send("port is running well well well")
+// })
 
 app.use(express.json())
 app.use(cors())
